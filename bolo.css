@@ -101,3 +101,51 @@ header nav ul li a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .galeria {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 50px;
+    }
+    .galeria img {
+      width: 250px;
+      border: 2px solid white;
+      border-radius: 8px;
+    }
+    .botao {
+      margin-top: 50px;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background-color: red;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      animation: pisca 1s infinite;
+    }
+    @keyframes {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  
+  
