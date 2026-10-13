@@ -184,3 +184,23 @@ h1, p, label {
       cursor: pointer;
       animation: pisca 1s infinite;
     }
+
+
+
+
+
+
+
+
+
+
+
+.link-azul {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link-azul:hover {
+  color: #0056b3;
+}
+``
